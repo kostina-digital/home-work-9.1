@@ -24,15 +24,15 @@
     --color-blue: #34547A;
 
     /* containers */
-    --container-main: 1110px;
-    --container-small: 540px;
+    --container-main: 69.375em;
+    --container-small: 33.75em;
 
-    --gap-xs: 10px;
-    --gap-s: 20px;
-    --gap-m: 35px;
-    --gap-l: 40px;
-    --gap-xl: 45px;
-    --gap-hero: 60px;
+    --gap-xs: 0.625em;
+    --gap-s: 1.25em;
+    --gap-m: 2.188em;
+    --gap-l: 2.5em;
+    --gap-xl: 2.813em;
+    --gap-hero: 3.75em;
 }
 
 html {
@@ -47,8 +47,8 @@ html {
 .header {
     background-color: var(--color-bg);
     max-width: 100%;
-    padding-top: 49px;
-    padding-bottom: 141px;
+    padding-top: 3.063em;
+    padding-bottom: 8.813em;
 }
 
 .container {
@@ -83,7 +83,7 @@ html {
 /* Hero */
 .hero {
     max-width: var(--container-small);
-    margin-top: 104px;
+    margin-top: 6.5em;
     display: flex;
     flex-direction: column;
     gap: var(--gap-hero);
@@ -118,7 +118,7 @@ html {
 
 /* About */
 .about {
-    margin-top: 112px;
+    margin-top: 7em;
     display: flex;
     flex-direction: column;
     align-items: center;
